@@ -1,7 +1,7 @@
 # Enterprise RAG Assistant
 
 ## Demo Video
-[![Enterprise RAG Assistant Demo] (demo/demo-thumbnail.png)](demo/demo.mp4)
+[![Enterprise RAG Assistant Demo](demo/demo-thumbnail.png)](https://youtu.be/G98r_P0bJjE)
 
 ## Overview 
 **Enterprise RAG Assistant** is a production-oriented Retrieval-Augmented Generation (RAG) system designed for **document-grounded question answering** with clear citations , deterministic behavior, and deployment readiness.
