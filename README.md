@@ -748,3 +748,6 @@ The UI is intentionally **minimal, neutral, and enterprise-styled**, focusing on
 - Advanced observability (metrics, tracing)
 
 These are intentionally deferred to keep the current system **stable, explainable, and base for implementation production-safe **.
+
+## License
+This project is licensed under the MIT License.
