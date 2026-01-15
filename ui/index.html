@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Enterprise RAG Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <!-- Sidebar -->
+      <aside class="sidebar" aria-label="Sidebar">
+        <div class="sb-top">
+          <div class="sb-brand">
+            <div class="sb-logo" aria-hidden="true">◎</div>
+            <div class="sb-name">Enterprise RAG Assistant</div>
+          </div>
+
+          <button id="newChatBtn" class="sb-btn sb-btn-primary" type="button">
+            + New chat
+          </button>
+
+          <div class="sb-section sb-section-flat">
+            <div class="sb-section-title">Recent</div>
+            <div id="chatList" class="sb-list sb-list-flat">
+            </div>
+          </div>
+        </div>
+
+        <div class="sb-bottom">
+          <div class="sb-footer">
+            <span class="sb-muted">Internal demo UI</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main -->
+      <main class="main" aria-label="Chat">
+        <header class="topbar">
+          <div class="tb-left">
+            <span class="pill">VCG</span>
+            <div class="tb-title">
+              <div class="tb-h1">Assistant</div>
+              <div class="tb-h2">Ask about policies, memos, MOA/AOA</div>
+            </div>
+          </div>
+
+          <div class="tb-right">
+            <button id="themeToggle" class="icon-btn" type="button" title="Toggle theme" aria-label="Toggle theme">
+              <span id="themeIcon" aria-hidden="true">🌙</span>
+            </button>
+          </div>
+        </header>
+
+        <section class="messages" aria-live="polite" aria-relevant="additions">
+          <div id="messagesInner" class="messages-inner"></div>
+        </section>
+
+        <footer class="composer-wrap">
+          <div class="composer-inner">
+            <form id="chatForm" class="composer" autocomplete="off">
+              <textarea
+                id="messageInput"
+                class="input"
+                rows="1"
+                placeholder="Ask Anything"
+                aria-label="Message"
+              ></textarea>
+
+              <button id="sendBtn" class="send" type="submit" disabled>
+                Send
+              </button>
+            </form>
+
+            <div class="hint">
+              <span>Enter to send</span>
+              <span class="dot">•</span>
+              <span>Shift+Enter for newline</span>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

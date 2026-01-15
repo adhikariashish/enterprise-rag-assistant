@@ -1,0 +1,3 @@
+policy:
+  deny_message: "I couldn't find any relevant information to answer your query in Knowledge base. Please try rephrasing or ask a different question."
+  require_quotes_in_weak_mode: True

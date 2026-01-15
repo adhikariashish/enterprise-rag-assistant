@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.venv/
+venv/
+.env
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Chroma / storage
+storage/
+.chroma/
+vectordb/
+*.sqlite3
+
+# Build artifacts
+dist/
+build/
+*.egg-info/

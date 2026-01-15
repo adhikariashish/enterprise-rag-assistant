@@ -1,0 +1,5 @@
+app:
+  app_name: "Consultancy RAG Chat Bot"
+  env: "dev"
+  log_level: "INFO"
+  cors_allow_origins: ["*"]

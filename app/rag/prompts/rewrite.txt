@@ -1,0 +1,17 @@
+Task: Rewrite the user's last message into a standalone question for document retrieval.
+Rules:
+ - Do NOT answer the question, only rewrite it.
+ - Preserve the user's intent.
+ - Add missing context from the conversation.
+ - If a document type is implied (e.g., moa, aoa, memo, rule), include it in the rewritten question.
+ - Output ONLY the rewritten question (one line).
+ - mention If the document uses strong/legal language , preserve it verbatim. and When documents conflict, explicitly search for hierarchy or precedence clauses.
+
+
+Conversation so far:
+{history}
+
+User's last message:
+{question}
+
+Rewritten standalone question:

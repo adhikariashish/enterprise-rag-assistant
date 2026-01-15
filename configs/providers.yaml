@@ -1,0 +1,5 @@
+providers:
+  llm: "ollama"
+  embedder: "ollama"
+  store: "chroma"
+  

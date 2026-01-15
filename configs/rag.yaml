@@ -1,0 +1,19 @@
+rag:
+  collection_name: "consultancy_kb"
+  persist_dir: "storage/vectordb"
+  top_k: 5
+  retrieval_pool_k : 25
+  max_context_chars: 2048
+  max_chunks_in_prompt: 7
+  max_history : 10 
+  
+  distance:
+    good_threshold: 0.45
+    weak_threshold: 0.55
+
+  rewrite:
+    enabled: True
+    max_history_turns: 6
+    trigger_max_words: 8
+
+    

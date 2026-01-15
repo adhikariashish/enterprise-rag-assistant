@@ -1,0 +1,7 @@
+Reference information:
+{context}
+
+Question:
+{question}
+
+{weak_answer_format}
